@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Smallest_Largest",
+            "request": "launch",
+            "mainClass": "Smallest_Largest",
+            "projectName": "CS-335_b86769d4"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayIteration",
             "request": "launch",
             "mainClass": "ArrayIteration",
