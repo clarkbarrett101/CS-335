@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DynamicArray_driver",
+            "request": "launch",
+            "mainClass": "DynamicArray.DynamicArray_driver",
+            "projectName": "CS-335_fd530d01"
+        },
+        {
+            "type": "java",
             "name": "Launch Smallest_Largest",
             "request": "launch",
             "mainClass": "Smallest_Largest",

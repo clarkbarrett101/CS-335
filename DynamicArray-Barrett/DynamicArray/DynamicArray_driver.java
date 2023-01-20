@@ -104,8 +104,8 @@ public class DynamicArray_driver {
          */
 
         /// Using Iterator
-        for (var number : numbers_list) {
-            System.out.print(number + ", ");
+        for (int i = 0; i < numbers_list.get_size(); i++) {
+            System.out.print(numbers_list.get(i) + ", ");
         }
 
         //// numbers_list.stream().forEach(System.out::println);
@@ -122,8 +122,8 @@ public class DynamicArray_driver {
         System.out.println("\nDynamicArray Size: " + numbers_list.get_size());
         System.out.println("DynamicArray Capacity: " + numbers_list.get_capacity());
 
-        for (var number : numbers_list) {
-            System.out.print(number + "; ");
+        for (int i = 0; i < numbers_list.get_size(); i++) {
+            System.out.print(numbers_list.get(i) + "; ");
         }
         System.out.println("\n");
     }
